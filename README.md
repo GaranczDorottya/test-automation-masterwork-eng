@@ -47,11 +47,6 @@ To run the automated tests, you will need IntelliJ IDEA with JAVA SE 15, one of 
 4. Type `.\gradlew clean test` into the terminal
 5. Press `Enter`
 
-If you would like to rerun the test package change the following part of the code:
-
-* Find and open the `BaseTest` class and change the `String` parameters after the `Valid User data -->` comment to any other valid data.\
-(This is needed so the test can register a new user which can be used thru out the test package again.)
-
 If you would like to run the test package with a different web driver, follow the steps below
 
 1. Open the `automated-tests` Gradle project with IntelliJ IDEA
