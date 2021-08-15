@@ -25,16 +25,6 @@ The finished tests are compatible with the following browsers:
 * Data extracting
 * Logout
 
-All the automated tests were based on the above linked manual test documentation. The tests were designed to be run in order, one after another. This is particularly true in the following cases because they all cover part of the same feature.
-
-* #TC08_DATA_INPUT_01
-* #TC12_DATA_MODIFICATION
-* #TC13_DELETING_DATA
-
-With the following test cases, use different input data every time you repeat them.
-
-* #TC02_REGISTRATION_02
-
 ***
 ## Method of running
 To run the automated tests, you will need IntelliJ IDEA with JAVA SE 15, one of the above-listed browsers and the blog_input_data.csv file for the parameterized tests.
