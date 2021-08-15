@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.greenfoxacademy.masterwork.TC14_Data_Saving" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-15T11:45:53" hostname="DESKTOP-QQ22JFS" time="17.239">
+  <properties/>
+  <testcase name="#TC14_DATA_SAVING" classname="com.greenfoxacademy.masterwork.TC14_Data_Saving" time="17.239"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Dóri-Dell\.cache\selenium\geckodriver\win64\0.29.1\geckodriver.exe
+1629027949899	geckodriver	INFO	Listening on 127.0.0.1:32137
+1629027950382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DRI-DE~1\\AppData\\Local\\Temp\\rust_mozprofileVCXhvB"
+1629027950760	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\xF3ri-Dell\\AppData\\Local\\Temp\\rust_mozprofileVCXhvB\\search.json.mozlz4", (void 0)))
+1629027953457	Marionette	INFO	Listening on port 56268
+1629027953568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+aug. 15, 2021 1:45:53 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.greenfoxacademy.masterwork.TC14_Data_Saving - Opening page...
+[Test worker] INFO com.greenfoxacademy.masterwork.TC14_Data_Saving - Page successfully opened.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC14_Data_Saving - Saving all blog posts to text file.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC14_Data_Saving - Checking if file content matches blog content.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC14_Data_Saving - Blog posts successfully saved.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC14_Data_Saving - Save file added to report.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC14_Data_Saving - Text file has been deleted.
+1629027971088	Marionette	INFO	Stopped listening on port 56268
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.greenfoxacademy.masterwork.TC04_Login_Fail" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-15T11:43:48" hostname="DESKTOP-QQ22JFS" time="3.045">
+  <properties/>
+  <testcase name="#TC04_LOGIN_01" classname="com.greenfoxacademy.masterwork.TC04_Login_Fail" time="3.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Dóri-Dell\.cache\selenium\geckodriver\win64\0.29.1\geckodriver.exe
+1629027825030	geckodriver	INFO	Listening on 127.0.0.1:4731
+1629027825524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DRI-DE~1\\AppData\\Local\\Temp\\rust_mozprofileJoeUeM"
+1629027825907	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\xF3ri-Dell\\AppData\\Local\\Temp\\rust_mozprofileJoeUeM\\search.json.mozlz4", (void 0)))
+1629027828503	Marionette	INFO	Listening on port 55753
+1629027828721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+aug. 15, 2021 1:43:48 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.greenfoxacademy.masterwork.TC04_Login_Fail - Opening page...
+[Test worker] INFO com.greenfoxacademy.masterwork.TC04_Login_Fail - Page successfully opened.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC04_Login_Fail - Navigating to login page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC04_Login_Fail - Attempting login with given data.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC04_Login_Fail - Login attempt unsuccessful, waiting for error message to be displayed.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC04_Login_Fail - Empty password error message displayed.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC04_Login_Fail - Content of error message verified.
+1629027832052	Marionette	INFO	Stopped listening on port 55753
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>

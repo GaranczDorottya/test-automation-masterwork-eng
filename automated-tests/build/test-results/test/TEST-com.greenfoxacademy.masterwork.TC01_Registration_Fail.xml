@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.greenfoxacademy.masterwork.TC01_Registration_Fail" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-15T11:43:16" hostname="DESKTOP-QQ22JFS" time="4.931">
+  <properties/>
+  <testcase name="#TC01_REGISTRATION_01" classname="com.greenfoxacademy.masterwork.TC01_Registration_Fail" time="4.931"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Dóri-Dell\.cache\selenium\geckodriver\win64\0.29.1\geckodriver.exe
+1629027791334	geckodriver	INFO	Listening on 127.0.0.1:47766
+1629027792280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DRI-DE~1\\AppData\\Local\\Temp\\rust_mozprofilePJD4zN"
+1629027792676	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\xF3ri-Dell\\AppData\\Local\\Temp\\rust_mozprofilePJD4zN\\search.json.mozlz4", (void 0)))
+1629027795466	Marionette	INFO	Listening on port 55553
+1629027795974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+aug. 15, 2021 1:43:16 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Opening page...
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Page successfully opened.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Navigating to register page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Attempting registration with given data.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Attempt unsuccessful, waiting for error message to be displayed.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Invalid password error message displayed.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Content of error message verified.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC01_Registration_Fail - Registration unsuccessful.
+1629027801401	Marionette	INFO	Stopped listening on port 55553
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+]]></system-err>
+</testsuite>

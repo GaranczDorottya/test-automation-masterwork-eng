@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.greenfoxacademy.masterwork.TC07_Pagination" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-15T11:44:16" hostname="DESKTOP-QQ22JFS" time="2.375">
+  <properties/>
+  <testcase name="#TC07_PAGINATION" classname="com.greenfoxacademy.masterwork.TC07_Pagination" time="2.375"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Dóri-Dell\.cache\selenium\geckodriver\win64\0.29.1\geckodriver.exe
+1629027852431	geckodriver	INFO	Listening on 127.0.0.1:31987
+1629027852919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DRI-DE~1\\AppData\\Local\\Temp\\rust_mozprofilevDAxLQ"
+1629027853304	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\xF3ri-Dell\\AppData\\Local\\Temp\\rust_mozprofilevDAxLQ\\search.json.mozlz4", (void 0)))
+1629027855862	Marionette	INFO	Listening on port 55938
+1629027856128	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+aug. 15, 2021 1:44:16 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Opening page...
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Page successfully opened.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Getting issue date of last post on current page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Navigating to older posts.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Checking if correct page opened.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Getting issue date of first post on current page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Checking if the current page's first post is older or has an identical date as last page's last post.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC07_Pagination - Posts are in the correct order after pagination.
+1629027858788	Marionette	INFO	Stopped listening on port 55938
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+]]></system-err>
+</testsuite>

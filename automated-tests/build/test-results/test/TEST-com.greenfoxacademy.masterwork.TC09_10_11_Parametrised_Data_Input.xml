@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-15T11:44:42" hostname="DESKTOP-QQ22JFS" time="39.559">
+  <properties/>
+  <testcase name="#TC09" classname="com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input" time="3.172"/>
+  <testcase name="#TC10" classname="com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input" time="18.161"/>
+  <testcase name="#TC11" classname="com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input" time="18.216"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Dóri-Dell\.cache\selenium\geckodriver\win64\0.29.1\geckodriver.exe
+1629027874119	geckodriver	INFO	Listening on 127.0.0.1:32335
+1629027874605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DRI-DE~1\\AppData\\Local\\Temp\\rust_mozprofile0j8jHC"
+1629027874988	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\xF3ri-Dell\\AppData\\Local\\Temp\\rust_mozprofile0j8jHC\\search.json.mozlz4", (void 0)))
+1629027877710	Marionette	INFO	Listening on port 56065
+1629027877777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+aug. 15, 2021 1:44:37 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Opening page...
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Page successfully opened.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Navigating to login page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Logging in with given data.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Navigating to blogpost.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Filling comment field.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Submitting comment.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comment is displayed.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comment is awaiting moderation.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comments content is expected.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Commenting was successful.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Navigating to home page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Navigating to blogpost.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Filling comment field.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Submitting comment.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comment is displayed.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comment is awaiting moderation.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comments content is expected.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Commenting was successful.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Navigating to home page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Navigating to blogpost.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Filling comment field.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Submitting comment.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comment is displayed.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comment is awaiting moderation.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Verifying if comments content is expected.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC09_10_11_Parametrised_Data_Input - Commenting was successful.
+1629027921740	Marionette	INFO	Stopped listening on port 56065
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>

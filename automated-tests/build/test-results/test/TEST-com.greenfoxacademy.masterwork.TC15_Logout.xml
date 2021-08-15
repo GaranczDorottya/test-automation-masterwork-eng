@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.greenfoxacademy.masterwork.TC15_Logout" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-15T11:46:16" hostname="DESKTOP-QQ22JFS" time="4.541">
+  <properties/>
+  <testcase name="#TC15_LOGOUT" classname="com.greenfoxacademy.masterwork.TC15_Logout" time="4.541"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Dóri-Dell\.cache\selenium\geckodriver\win64\0.29.1\geckodriver.exe
+1629027972784	geckodriver	INFO	Listening on 127.0.0.1:42203
+1629027973270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DRI-DE~1\\AppData\\Local\\Temp\\rust_mozprofilezJ5WlU"
+1629027973657	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\D\xF3ri-Dell\\AppData\\Local\\Temp\\rust_mozprofilezJ5WlU\\search.json.mozlz4", (void 0)))
+1629027976129	Marionette	INFO	Listening on port 56344
+1629027976439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+aug. 15, 2021 1:46:16 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Opening page...
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Page successfully opened.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Navigating to login page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Logging in with given data.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Navigating to logout page.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Checking if log out link is displayed with correct text.
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Attempting logout
+[Test worker] INFO com.greenfoxacademy.masterwork.TC15_Logout - Logout attempt successful.
+1629027981268	Marionette	INFO	Stopped listening on port 56344
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
